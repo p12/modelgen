@@ -27,6 +27,9 @@ class ModelGenerator
 	public:
 		/* ====================  LIFECYCLE     ======================================= */
 		ModelGenerator ();                             /* constructor */
+		void		read();
+		void		table();
+		void		steps();
 
 		/* ====================  ACCESSORS     ======================================= */
 
